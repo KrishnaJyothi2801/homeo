@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   },
   basePath: "/homeo", // ✅ replace with your repo name
   assetPrefix: "/homeo/", // ✅ ensures assets load correctly
+  trailingSlash: true, 
 };
 
 export default nextConfig;
