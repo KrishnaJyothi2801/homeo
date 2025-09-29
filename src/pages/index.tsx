@@ -3,7 +3,11 @@ export default function Home() {
     <section className="container mx-auto px-4 pt-16! bg-amber-50">
       {/* Hero Section */}
       <div className="relative bg-white shadow-lg rounded-2xl overflow-hidden mb-12">
-        <img src="https://png.pngtree.com/background/20210709/original/pngtree-male-doctor-minimalist-background-picture-picture-image_962441.jpg" alt="Doctor consultation" className="w-full h-[450px] object-cover" />
+        <img
+          src="https://png.pngtree.com/background/20210709/original/pngtree-male-doctor-minimalist-background-picture-picture-image_962441.jpg"
+          alt="Doctor consultation"
+          className="w-full h-[450px] object-cover"
+        />
         <div className="absolute inset-0 bg-opacity-40 flex flex-col justify-center items-center text-center text-white px-6">
           <h1 className="text-8xl! text-blue-950 font-bold mb-10!">
             Healing Through Homeopathy
@@ -23,7 +27,7 @@ export default function Home() {
 
       {/* Services Preview */}
       <div className="grid md:grid-cols-3 gap-8 text-center p-10! bg-[#7DDEFD]!">
-        <div className="bg-[#7DDEFD]] shadow-md p-6 rounded-xl">
+        <div className="bg-[#7DDEFD] shadow-md p-6 rounded-xl">
           <img
             src="https://media.istockphoto.com/id/1988844230/photo/paediatric-medical-check-up.jpg?s=612x612&w=0&k=20&c=hz7jXpJmcvxSVkJLBucMOem1CYpjTGF-z0dUPGNSCgA="
             alt="Kids homeopathy"
@@ -36,7 +40,8 @@ export default function Home() {
             Gentle, safe remedies for children’s health and immunity.
           </p>
         </div>
-        <div className="bg-[#7DDEFD]] shadow-md p-6 rounded-xl">
+
+        <div className="bg-[#7DDEFD] shadow-md p-6 rounded-xl">
           <img
             src="https://www.janeylhammonsnpc.com/wp-content/uploads/chronic-disease-management-2107.jpg"
             alt="Chronic care"
@@ -49,6 +54,7 @@ export default function Home() {
             Effective long-term care for asthma, arthritis, and more.
           </p>
         </div>
+
         <div className="bg-[#7DDEFD] shadow-md p-6 rounded-xl">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhsSXYYyX_Lkkxr4EBs26_9KihpBiSDM-30g&s"
