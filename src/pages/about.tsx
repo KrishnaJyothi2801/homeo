@@ -1,27 +1,40 @@
-import Player from "lottie-react";
-import heroAnimation from "@/assets/hero-animation.json";
+import Hero from "@/components/Hero";
+import Layout from "@/components/Layout";
 
 export default function About() {
   return (
-    <section className="container mx-auto p-16! pt-28! bg-[#7DDEFD] w-screen h-screen">
-      <div className="grid md:grid-cols-2 gap-12 items-center">
-        {/* <img src="https://www.shutterstock.com/image-photo/portrait-handsome-male-doctor-stethoscope-600nw-2480850611.jpg" alt="Dr. [Name]" className="w-full rounded-2xl shadow-lg" /> */}
-        <Player
-          animationData={heroAnimation}
-          loop
-          autoplay
-          className="w-full h-[450px]"
-        />
-        <div>
-          <h1 className="text-5xl! font-bold text-blue-950 mb-4!">About Dr. Siva Subramaniyam</h1>
-          <p className="text-blue-950 mb-4! mr-10!">
-            With over 30 years of dedicated service in homeopathy, Dr. Mony has been a trusted health partner for families, treating patients with care, compassion, and holistic methods.
-          </p>
-          <p className="text-blue-950 mr-10!">
-            Known for expertise in treating chronic conditions and promoting overall wellness, Dr. Mony combines traditional knowledge with modern approaches for safe and lasting results.
-          </p>
+    <Layout>
+      <Hero
+        title="About Our Clinic"
+        subtitle="Trusted care in homeopathy with years of experience"
+        imageUrl="/images/hero-about.jpg"
+        ctaText="Our Services"
+        ctaLink="/services"
+      />
+
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+            <p className="text-gray-700 mb-4">
+              Our clinic has been serving patients with compassionate,
+              personalized homeopathic treatments. We believe in treating the
+              root cause of illness and restoring balance naturally.
+            </p>
+            <p className="text-gray-700">
+              Our approach combines years of expertise with modern holistic
+              methods to provide effective, safe solutions for the entire
+              family.
+            </p>
+          </div>
+          <img
+            src="/images/clinic.jpg"
+            alt="Clinic"
+            className="rounded-lg shadow-lg"
+          />
         </div>
-      </div>
-    </section>
-  )
+      </section>
+
+    </Layout>
+  );
 }

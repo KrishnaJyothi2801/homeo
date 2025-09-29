@@ -1,20 +1,22 @@
-import Link from "next/link";
+import Link from "next/link"
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-md fixed top-0 w-full z-50">
-      <div className="container mx-auto flex items-center justify-between p-4! bg-amber-300!">
+    <nav className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
+      <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-2xl! text-blue-950 font-bold! h-10"> Dr. Mony </h1>
+        <Link href="/" className="text-2xl font-bold text-green-700">
+          HomeoCare
+        </Link>
 
-        {/* Links */}
-        <ul className="flex space-x-6 text-gray-700 font-medium">
-          <li><Link href="/" className="text-xl! font-semibold! hover:text-blue-950! px-2!">Home</Link></li>
-          <li><Link href="/about" className="text-xl! font-semibold! hover:text-blue-950! px-2!">About</Link></li>
-          <li><Link href="/services" className="text-xl! font-semibold! hover:text-blue-950! px-2!">Services</Link></li>
-          <li><Link href="/contact" className="text-xl! font-semibold! hover:text-blue-950! px-2!">Contact</Link></li>
-        </ul>
+        {/* Menu */}
+        <div className="space-x-6 hidden md:flex">
+          <Link href="/" className="text-gray-700 hover:text-green-600">Home</Link>
+          <Link href="/about" className="text-gray-700 hover:text-green-600">About</Link>
+          <Link href="/services" className="text-gray-700 hover:text-green-600">Services</Link>
+          <Link href="/contact" className="text-gray-700 hover:text-green-600">Contact</Link>
+        </div>
       </div>
     </nav>
-  );
+  )
 }
