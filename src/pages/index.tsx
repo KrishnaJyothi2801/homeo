@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import Hero from "@/components/Hero";
-import heroAnimation from "@/assets/hero-animation.json";
+import heroAnimation from "@/assets/doctor.json";
 
 export default function Home() {
   return (
