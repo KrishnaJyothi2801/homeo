@@ -5,7 +5,7 @@ import contactAnimation from "@/assets/contact.json";
 export default function Contact() {
   return (
     <Layout>
-      <>
+      <main className="pt-12">
         <Hero
           title="Contact Us"
           subtitle="Get in touch to book an appointment or learn more"
@@ -99,7 +99,7 @@ export default function Contact() {
             Call Now
           </a>
         </section>
-      </>
+      </main>
     </Layout>
   );
 }

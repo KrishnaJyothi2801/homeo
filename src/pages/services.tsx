@@ -5,7 +5,7 @@ import servicesAnimation from "@/assets/services.json";
 export default function Services() {
   return (
     <Layout>
-      <>
+      <main className="pt-12">
         <Hero
           title="Our Services"
           subtitle="Comprehensive homeopathic care for all ages"
@@ -38,7 +38,7 @@ export default function Services() {
             Contact Us
           </a>
         </section>
-      </>
+      </main>
     </Layout>
   );
 }

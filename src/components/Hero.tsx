@@ -31,7 +31,7 @@ export default function Hero({
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           {/* Left*/}
           <div className="w-full md:w-1/2 text-center">
-            <h1 className="text-5xl md:text-7xl font-bold text-[#03045e] mb-4">
+            <h1 className="text-5xl md:text-7xl font-bold text-[#03045e] mb-4 mt-20 md:mt-0">
               {title}
             </h1>
             <p className="text-xl md:text-2xl text-[#0077b6] max-w-lg mx-auto mb-6">

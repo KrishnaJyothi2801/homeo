@@ -5,7 +5,7 @@ import aboutAnimation from "@/assets/about.json";
 export default function About() {
   return (
     <Layout>
-      <>
+      <main className="pt-12">
         <Hero
           title="About Our Clinic"
           subtitle="Trusted care in homeopathy with years of experience"
@@ -45,7 +45,7 @@ export default function About() {
             View Services
           </a>
         </section>
-      </>
+      </main>
     </Layout>
   );
 }

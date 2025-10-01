@@ -5,7 +5,7 @@ import heroAnimation from "@/assets/doctor.json";
 export default function Home() {
   return (
     <Layout>
-      <>
+      <main className="pt-12">
         <Hero
           title="Healing Through Homeopathy"
           subtitle="Experience holistic and natural healing with trusted care"
@@ -30,9 +30,7 @@ export default function Home() {
 
         {/* Call to action */}
         <section className="py-12 bg-[#0077b6] text-center text-white">
-          <h3 className="text-2xl font-semibold mb-4">
-            Need a Consultation?
-          </h3>
+          <h3 className="text-2xl font-semibold mb-4">Need a Consultation?</h3>
           <a
             href="/contact"
             className="bg-[#90e0ef] text-[#03045e] px-6 py-3 rounded-lg font-medium hover:bg-[#00b4d8]"
@@ -40,7 +38,7 @@ export default function Home() {
             Contact Us
           </a>
         </section>
-      </>
+      </main>
     </Layout>
   );
 }
