@@ -90,11 +90,11 @@ export default function Contact() {
         </section>
 
         {/* Call to Action */}
-        <section className="py-12 bg-[#0077b6] text-center text-white">
+        <section className="py-12 bg-[#CAF0F8] text-center text-[#03045e]">
           <h3 className="text-2xl font-semibold mb-4">Need Immediate Help?</h3>
           <a
             href="tel:+911234567890"
-            className="bg-[#90e0ef] text-[#03045e] px-6 py-3 rounded-lg font-medium hover:bg-[#00b4d8]"
+            className="bg-[#0077b6] hover:bg-[#00b4d8] text-white px-6 py-3 rounded-lg font-medium"
           >
             Call Now
           </a>
