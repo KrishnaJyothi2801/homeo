@@ -18,7 +18,7 @@ export default function Hero({
   heroAnimation,
 }: HeroProps) {
   return (
-    <div className="relative w-full h-[500px] overflow-hidden">
+    <div className="relative w-full h-[550px] overflow-hidden">
       {imageUrl && (
         <img
           src={imageUrl}
