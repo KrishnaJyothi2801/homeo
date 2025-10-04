@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Priya",
+    "age": 34,
+    "initial": "P",
+    "color": "#0077b6",
+    "feedback": "I used to fall sick every month with sinus infections. After starting treatment here, I barely remember the last time I had one. So relieved!"
+  },
+  {
+    "name": "Ramesh",
+    "age": 52,
+    "initial": "R",
+    "color": "#00b4d8",
+    "feedback": "I was nervous to try homeopathy at first, but the doctor explained everything patiently. My joint pain has reduced so much — I can finally walk without discomfort."
+  },
+  {
+    "name": "Anjali",
+    "age": 29,
+    "initial": "A",
+    "color": "#90e0ef",
+    "feedback": "We brought our 6-year-old daughter here for recurring coughs. She hasn’t had a single episode in months. The clinic feels very welcoming too."
+  }
+]

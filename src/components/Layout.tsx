@@ -1,10 +1,12 @@
-import Navbar from "./Navbar"
+import ContactFloatButtons from "./ContactFloatButtons";
+import Navbar from "./Navbar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="font-sans">
+    <div className="font-sans overflow-x-hidden">
       <Navbar />
-      <main>{children}</main>
+      <main className="w-full">{children}</main>
+      <ContactFloatButtons />
     </div>
-  )
+  );
 }
