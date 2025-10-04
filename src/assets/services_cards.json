@@ -1,17 +1,17 @@
 [
   {
-    "imageUrl": "/images/hero-clinic.jpg",
-    "title": "Chronic Illness Treatment",
-    "description": "Effective homeopathic remedies tailored for chronic conditions like asthma, arthritis, and skin disorders."
+    "imageUrl": "/images/cold.png",
+    "title": "Cold & Respiratory Relief",
+    "description": "Natural homeopathic remedies that help relieve symptoms of cold, cough, sinusitis, and seasonal allergies while strengthening your immunity."
   },
   {
-    "imageUrl": "/images/hero-clinic.jpg",
-    "title": "Child & Women’s Health",
-    "description": "Safe and holistic solutions for children and women’s health issues including allergies and hormonal balance."
+    "imageUrl": "/images/migraine.png",
+    "title": "Migraine & Headache Care",
+    "description": "Gentle and effective treatments for chronic migraines and tension headaches, offering long-term relief without side effects."
   },
   {
-    "imageUrl": "/images/hero-clinic.jpg",
-    "title": "General Wellness",
-    "description": "Boost immunity, reduce stress, and improve overall well-being with natural homeopathic care."
+    "imageUrl": "/images/hairloss.png",
+    "title": "Hair Loss & Scalp Health",
+    "description": "Homeopathic solutions that address the root causes of hair fall, dandruff, and scalp issues to promote healthy, natural hair growth."
   }
 ]

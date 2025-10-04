@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import Hero from "@/components/Hero";
 import heroAnimation from "@/assets/doctor.json";
+import FAQSection from "@/components/FAQSection";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
             </p>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        <FAQSection />
 
         {/* Call to action */}
         <section className="py-12 bg-[#0077b6] text-center text-white">
