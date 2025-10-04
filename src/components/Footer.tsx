@@ -47,7 +47,7 @@ export default function Footer() {
 
           <div className="flex justify-center md:justify-start space-x-3 mt-3">
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919443223601"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#90e0ef]"
