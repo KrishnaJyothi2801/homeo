@@ -10,7 +10,7 @@ export default function Contact() {
           title="Contact Us"
           subtitle="Get in touch to book an appointment or learn more"
           ctaText="Call Now"
-          ctaLink="tel:+911234567890"
+          ctaLink="tel:+919443223601"
           heroAnimation={contactAnimation}
         />
 
@@ -31,7 +31,7 @@ export default function Contact() {
                   📍 <strong>Address:</strong> 123 Main Street, Chennai, India
                 </li>
                 <li>
-                  📞 <strong>Phone:</strong> +91 12345 67890
+                  📞 <strong>Phone:</strong> +91 94432 23601
                 </li>
                 <li>
                   ✉️ <strong>Email:</strong> info@homeoclinic.com
@@ -93,7 +93,7 @@ export default function Contact() {
         <section className="py-12 bg-[#CAF0F8] text-center text-[#03045e]">
           <h3 className="text-2xl font-semibold mb-4">Need Immediate Help?</h3>
           <a
-            href="tel:+911234567890"
+            href="tel:+919443223601"
             className="bg-[#0077b6] hover:bg-[#00b4d8] text-white px-6 py-3 rounded-lg font-medium"
           >
             Call Now
