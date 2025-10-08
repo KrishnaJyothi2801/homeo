@@ -10,11 +10,11 @@ export default function Home() {
     <Layout>
       <main className="pt-12">
         {/* Doctor Hero Section */}
-        <div className="flex flex-col md:flex-row items-center justify-center bg-white p-12 md:p-20 shadow-xl">
+        <div className="flex flex-col lg:flex-row items-center justify-center bg-white p-12 md:p-20 shadow-xl">
           <img
             src="/images/doctor-photo.png"
             alt="Dr. Mani"
-            className="w-64 h-64 md:w-96 md:h-96 rounded-full object-cover mb-8 md:mb-0 md:mr-12"
+            className="w-64 h-64 md:w-96 md:h-96 rounded-full object-cover mb-8 lg:mb-0 md:mr-12"
           />
           <div className="text-center md:text-left max-w-xl">
             <h1 className="text-4xl md:text-6xl font-extrabold text-[#03045e] mb-4">
