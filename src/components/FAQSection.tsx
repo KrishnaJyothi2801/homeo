@@ -19,18 +19,28 @@ export default function FAQSection() {
               className="bg-white rounded-lg shadow-md p-5 cursor-pointer"
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
             >
+              {/* Header */}
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-semibold text-[#03045e]">
                   {faq.question}
                 </h3>
-                <span className="text-[#0077b6] text-xl">
+                <span
+                  className={`text-[#0077b6] text-2xl transform transition-transform duration-300 ${
+                    openIndex === index ? "rotate-180" : ""
+                  }`}
+                >
                   {openIndex === index ? "−" : "+"}
                 </span>
               </div>
 
-              {openIndex === index && (
-                <p className="mt-3 text-[#0077b6]">{faq.answer}</p>
-              )}
+              {/* Smooth expandable answer */}
+              <div
+                className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                  openIndex === index ? "max-h-40 mt-3" : "max-h-0"
+                }`}
+              >
+                <p className="text-[#0077b6]">{faq.answer}</p>
+              </div>
             </div>
           ))}
         </div>
