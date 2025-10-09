@@ -23,7 +23,7 @@ export default function Home() {
               Dr. Mani (Homeopathy)
             </h1>
             <p className="text-xl md:text-2xl text-[#0077b6] mb-4 font-semibold">
-              Over xx years of experience in holistic and natural healing
+              Over 15 years of experience in holistic and natural healing
             </p>
             <p className="text-lg md:text-xl text-[#0077b6] mb-6">
               Dr. Mani is dedicated to providing personalized care and restoring
