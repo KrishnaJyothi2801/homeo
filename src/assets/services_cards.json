@@ -13,5 +13,20 @@
     "imageUrl": "/images/hairloss.png",
     "title": "Hair Loss & Scalp Health",
     "description": "Homeopathic solutions that address the root causes of hair fall, dandruff, and scalp issues to promote healthy, natural hair growth."
+  },
+  {
+    "imageUrl": "/images/kidney.jpeg",
+    "title": "Kidney Stone Relief",
+    "description": "Safe and natural remedies that help dissolve kidney stones, support kidney function, and reduce urinary discomfort."
+  },
+  {
+    "imageUrl": "/images/pcod.jpeg",
+    "title": "PCOD & Hormonal Balance",
+    "description": "Homeopathic treatments designed to regulate menstrual cycles, balance hormones, and support reproductive health naturally."
+  },
+  {
+    "imageUrl": "/images/child.jpeg",
+    "title": "Child Care & Wellness",
+    "description": "Gentle, safe remedies for common childhood issues including immunity, digestion, and growth support, promoting overall health."
   }
 ]

@@ -26,11 +26,6 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:text-[#90e0ef]">
-                About
-              </a>
-            </li>
-            <li>
               <a href="/contact" className="hover:text-[#90e0ef]">
                 Contact
               </a>
@@ -41,7 +36,7 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Contact</h3>
-          <p className="text-sm text-[#caf0f8]">📍 Trivandrum, India</p>
+          <p className="text-sm text-[#caf0f8]">📍 Thiruvananthapuram, India</p>
           <p className="text-sm text-[#caf0f8]">📞 +91 94432 23601</p>
           <p className="text-sm text-[#caf0f8]">✉️ contact@clinic.com</p>
 

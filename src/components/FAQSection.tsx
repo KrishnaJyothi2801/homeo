@@ -6,9 +6,19 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   return (
-    <section className="py-16 bg-[#caf0f8]">
-      <div className="container mx-auto px-4 max-w-3xl">
-        <h2 className="text-3xl font-bold text-[#03045e] text-center mb-10">
+    <section className="relative py-16">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-30"
+        style={{ backgroundImage: "url('/images/bg_leaf.jpeg')" }}
+      ></div>
+
+      {/* Optional White Overlay for readability */}
+      <div className="absolute inset-0 bg-[#E8F6F6]/30"></div>
+
+      {/* Content */}
+      <div className="relative container mx-auto px-4 max-w-3xl">
+        <h2 className="text-3xl font-bold text-white text-center mb-10">
           Frequently Asked Questions
         </h2>
 
@@ -16,7 +26,7 @@ export default function FAQSection() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md p-5 cursor-pointer"
+              className="bg-white/80 backdrop-blur-sm rounded-lg shadow-md p-5 cursor-pointer"
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
             >
               {/* Header */}

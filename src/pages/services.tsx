@@ -10,19 +10,19 @@ export default function Services() {
   return (
     <Layout>
       <main className="pt-12">
-        <Hero
+        {/* <Hero
           title="Our Services"
           subtitle="Comprehensive homeopathic care for all ages"
           ctaText="Book Appointment"
           ctaLink="/contact"
           heroAnimation={servicesAnimation}
-        />
+        /> */}
 
         {/* Why Choose Us Section */}
         <section className="py-16 bg-[#caf0f8]">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold text-[#03045e] mb-6">
-              Why Choose Us?
+            <h2 className="text-5xl font-bold text-[#03045e] mb-6">
+              Our Services
             </h2>
             <p className="max-w-3xl mx-auto text-[#0077b6] mb-12">
               We provide natural, holistic remedies with proven results,
