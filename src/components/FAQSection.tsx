@@ -6,7 +6,7 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   return (
-    <section className="relative py-16">
+    <section className="relative py-16 bg-[#caf0f8]">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
@@ -18,7 +18,7 @@ export default function FAQSection() {
 
       {/* Content */}
       <div className="relative container mx-auto px-4 max-w-3xl">
-        <h2 className="text-3xl font-bold text-white text-center mb-10">
+        <h2 className="text-3xl font-bold text-[#0A0B62] text-center mb-10">
           Frequently Asked Questions
         </h2>
 

@@ -10,7 +10,7 @@ export default function Home() {
         {/* Doctor Hero Section with Background Image */}
         <div
           className="flex flex-col lg:flex-row items-center justify-center p-12 md:p-20 shadow-xl
-     bg-cover bg-center bg-no-repeat"
+     bg-cover bg-center bg-no-repeat bg-[#caf0f8]"
           style={{ backgroundImage: "url('/images/generated-image.png')" }}
         >
           <img
