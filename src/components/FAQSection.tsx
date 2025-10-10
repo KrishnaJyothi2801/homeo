@@ -17,7 +17,7 @@ export default function FAQSection() {
   }
 
   return (
-    <section className="relative py-16 bg-[#caf0f8]">
+    <section className="relative py-16 bg-[#D4E1CF]">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
@@ -67,7 +67,7 @@ export default function FAQSection() {
 
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                  openIndex === index ? "max-h-60 mt-3" : "max-h-0"
+                  openIndex === index ? "mt-3" : "max-h-0"
                 }`}
               >
                 <p

@@ -9,24 +9,30 @@ export default function Home() {
       <main className="pt-12">
         {/* Doctor Hero Section with Background Image */}
         <div
-          className="flex flex-col lg:flex-row items-center justify-center p-12 md:p-20 shadow-xl
-     bg-cover bg-center bg-no-repeat bg-[#caf0f8]"
+          className="flex flex-col lg:flex-row items-center justify-center 
+  p-6 sm:p-10 md:p-16 lg:p-20 shadow-xl bg-cover bg-center bg-no-repeat bg-[#caf0f8]"
           style={{ backgroundImage: "url('/images/generated-image.png')" }}
         >
+          {/* Doctor Image */}
           <img
             src="/images/dp_placeholder.png"
             alt="Dr.Siva Multi-speciality Homoeo Care"
-            className="w-64 h-64 md:w-96 md:h-96 rounded-full object-cover mb-8 lg:mb-0 md:mr-20"
+            className="w-40 h-40 sm:w-52 sm:h-52 md:w-80 md:h-80 lg:w-96 lg:h-96 
+    rounded-full object-cover mb-6 lg:mb-0 lg:mr-16 transition-all duration-300"
           />
-          <div className="flex flex-col items-center md:items-start text-center md:text-left p-8 md:p-12 max-w-3xl mx-auto my-10 transition-all duration-300 hover:shadow-[#0077b6]/50">
-            <h1 className="text-5xl md:text-6xl font-bold text-[#03045e] mb-2 tracking-tight drop-shadow-sm">
+
+          {/* Content */}
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left 
+  p-4 sm:p-6 md:p-8 max-w-3xl mx-auto mt-4 lg:mt-0 hover:shadow-[#0077b6]/50 transition-all duration-300">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#03045e] mb-2 tracking-tight drop-shadow-sm">
               Dr. Sivasubramoniam
             </h1>
-            <p className="text-2xl md:text-3xl text-[#03045e] mb-6 font-semibold italic">
+
+            <p className="text-lg sm:text-xl md:text-2xl text-[#03045e] mb-4 font-semibold italic">
               B.Sc; M.D (Homoeo)
             </p>
 
-            <p className="text-3xl md:text-4xl font-semibold text-[#03045e] mb-4">
+            <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#03045e] mb-4">
               Multi-speciality Homoeo Care
             </p>
 
@@ -34,21 +40,22 @@ export default function Home() {
               Over 31 years of experience in the field of Homoeopathy.
             </p>
 
-            <p className="text-lg md:text-xl text-[#0077b6] mb-8 leading-relaxed">
-              Dr. Siva is dedicated to providing personalized care and restoring balance naturally. His philosophy focuses on treating the root
-              cause, not just the symptoms, ensuring the best outcomes for every
-              patient.
+            <p className="text-lg md:text-xl text-[#0077b6] mb-8 leading-relaxed max-w-xl">
+              Dr. Siva is dedicated to providing personalized care and restoring balance naturally.
+              His philosophy focuses on treating the root cause, not just the symptoms, ensuring
+              the best outcomes for every patient.
             </p>
 
             {/* Book Appointment Button */}
             <a
               href="/contact#pricing"
-              className="bg-[#0077b6] hover:bg-[#03045E] text-white px-6 py-3 rounded-lg font-medium transition"            >
+              className="bg-[#0077b6] hover:bg-[#03045E] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition"
+            >
               Book Appointment
             </a>
           </div>
-
         </div>
+
 
 
         {/* Main Hero Section */}
