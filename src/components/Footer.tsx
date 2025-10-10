@@ -6,7 +6,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-2">Our Clinic</h3>
           <p className="text-sm text-[#caf0f8] leading-relaxed">
-            Providing trusted homeopathic care to help you heal naturally and
+            Providing trusted homoeopathic care to help you heal naturally and
             live a balanced, healthy life.
           </p>
         </div>

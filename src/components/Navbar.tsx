@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-white">
-          HomeoCare
+          homoeoCare
         </Link>
 
         {/* Desktop Menu */}

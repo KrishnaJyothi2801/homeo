@@ -9,7 +9,7 @@ export default function About() {
       <main className="pt-12">
         <Hero
           title="About Our Clinic"
-          subtitle="Trusted care in homeopathy with years of experience"
+          subtitle="Trusted care in homoeopathy with years of experience"
           ctaText="Our Services"
           ctaLink="/services"
           heroAnimation={aboutAnimation}
@@ -23,7 +23,7 @@ export default function About() {
             </h2>
             <p className="text-[#0077b6] mb-4">
               Our clinic has been serving patients with compassionate,
-              personalized homeopathic treatments. We believe in treating the
+              personalized homoeopathic treatments. We believe in treating the
               root cause of illness and restoring balance naturally.
             </p>
             <p className="text-[#0077b6]">

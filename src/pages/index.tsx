@@ -15,36 +15,45 @@ export default function Home() {
         >
           <img
             src="/images/dp_placeholder.png"
-            alt="Dr. Mani"
+            alt="Dr.Siva Multi-speciality Homoeo Care"
             className="w-64 h-64 md:w-96 md:h-96 rounded-full object-cover mb-8 lg:mb-0 md:mr-20"
           />
-          <div className="text-center md:text-left max-w-xl p-6 rounded-lg">
-            <h1 className="text-4xl md:text-6xl font-extrabold text-[#03045e] mb-4">
-              Dr. Mani (Homeopathy)
+          <div className="flex flex-col items-center md:items-start text-center md:text-left p-8 md:p-12 max-w-3xl mx-auto my-10 transition-all duration-300 hover:shadow-[#0077b6]/50">
+            <h1 className="text-5xl md:text-6xl font-bold text-[#03045e] mb-2 tracking-tight drop-shadow-sm">
+              Dr. Sivasubramoniam
             </h1>
-            <p className="text-xl md:text-2xl text-[#0077b6] mb-4 font-semibold">
-              Over 15 years of experience in holistic and natural healing
+            <p className="text-2xl md:text-3xl text-[#03045e] mb-6 font-semibold italic">
+              B.Sc; M.D (Homoeo)
             </p>
-            <p className="text-lg md:text-xl text-[#0077b6] mb-6">
-              Dr. Mani is dedicated to providing personalized care and restoring
-              balance naturally. Her philosophy focuses on treating the root
+
+            <p className="text-3xl md:text-4xl font-semibold text-[#03045e] mb-4">
+              Multi-speciality Homoeo Care
+            </p>
+
+            <p className="text-xl md:text-2xl text-[#0077b6] mb-4 font-semibold">
+              Over 31 years of experience in the field of Homoeopathy.
+            </p>
+
+            <p className="text-lg md:text-xl text-[#0077b6] mb-8 leading-relaxed">
+              Dr. Siva is dedicated to providing personalized care and restoring balance naturally. His philosophy focuses on treating the root
               cause, not just the symptoms, ensuring the best outcomes for every
               patient.
             </p>
+
             {/* Book Appointment Button */}
             <a
               href="/contact#pricing"
-              className="bg-[#0077b6] hover:bg-[#03045E] text-white px-6 py-3 rounded-lg font-medium transition"
-            >
+              className="bg-[#0077b6] hover:bg-[#03045E] text-white px-6 py-3 rounded-lg font-medium transition"            >
               Book Appointment
             </a>
           </div>
+
         </div>
 
 
         {/* Main Hero Section */}
         {/* <Hero
-          title="Healing Through Homeopathy"
+          title="Healing Through homoeopathy"
           subtitle="Experience holistic and natural healing with trusted care"
           ctaText="Book Appointment"
           ctaLink="/contact"
@@ -58,7 +67,7 @@ export default function Home() {
               Our Story
             </h2>
             <p className="text-[#0077b6] mb-4">
-              Dr. Mani’s journey into homeopathy began over 15 years ago with a simple belief: true healing comes from addressing the root cause, not just the symptoms. Over the years, she has guided countless patients on a path to holistic wellness, combining her deep knowledge with a compassionate touch. Every consultation is a personal journey, where she listens, understands, and crafts natural solutions tailored to each individual. Her mission is simple—restore balance, nurture health, and empower her patients to live their best lives naturally.
+              Dr.Siva's journey into homoeopathy began over 30 years ago with a simple belief: true healing comes from addressing the root cause, not just the symptoms. Over the years, he has guided countless patients on a path to holistic wellness, combining his deep knowledge with a compassionate touch. Every consultation is a personal journey, where he listens, understands, and crafts natural solutions tailored to each individual. His mission is simple—restore balance, nurture health, and empower his patients to live their best lives naturally.
             </p>
             {/* <p className="text-[#0077b6] mb-8">
               Our approach combines years of expertise with modern holistic
@@ -68,14 +77,13 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Testimonials Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-[#03045e] mb-6">
-              Welcome to Our Clinic
+              Welcome to Our Homoeopathic Clinic
             </h2>
             <p className="max-w-3xl mx-auto text-[#0077b6]">
-              We provide holistic and safe homeopathic treatments tailored to
+              We provide holistic and safe homoeopathic treatments tailored to
               each patient’s unique needs. Our mission is to promote wellness
               through natural healing methods.
             </p>

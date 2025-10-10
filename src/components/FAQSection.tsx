@@ -46,10 +46,13 @@ export default function FAQSection() {
               {/* Smooth expandable answer */}
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                  openIndex === index ? "max-h-40 mt-3" : "max-h-0"
+                  openIndex === index ? "max-h-60 mt-3" : "max-h-0"
                 }`}
               >
-                <p className="text-[#0077b6]">{faq.answer}</p>
+                <p
+                  className="text-[#0077b6]"
+                  dangerouslySetInnerHTML={{ __html: faq.answer }}
+                />
               </div>
             </div>
           ))}

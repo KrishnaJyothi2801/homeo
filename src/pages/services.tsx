@@ -12,7 +12,7 @@ export default function Services() {
       <main className="pt-12">
         {/* <Hero
           title="Our Services"
-          subtitle="Comprehensive homeopathic care for all ages"
+          subtitle="Comprehensive homoeopathic care for all ages"
           ctaText="Book Appointment"
           ctaLink="/contact"
           heroAnimation={servicesAnimation}

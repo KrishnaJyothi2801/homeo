@@ -1,11 +1,27 @@
 [
   {
-    "question": "What is homeopathy?",
-    "answer": "Homeopathy is a holistic system of medicine that stimulates the body's natural healing process using highly diluted remedies."
+    "question": "What is homoeopathy?",
+    "answer": "Homoeopathy is a Science of Therapeutics based on the Law of Similars or \"Similia Similibus Curantur\" - let likes be treated by likes. The concept of Totality of Symptoms, Individualization and Susceptible Constitution are the most important parameters in Homoeopathy on which successful application of Law of Similars depends. <br/> The Founder of Homoeopathic System was the great German Physician, Dr. Christian Friedrich Samuel Hahnemann, who was born on April 10, 1755 and died in Paris on July 2, 1843."
   },
   {
-    "question": "Is homeopathy safe for children?",
-    "answer": "Yes, homeopathic remedies are gentle and safe for children of all ages as they are non-toxic and free from side effects."
+    "question": "Sources of Homoeopathic Medicines.",
+    "answer": "1. Animal Kingdom - Honeybee, Cockroach, King Cobra, Spider.<br/>2. Plant Kingdom - Red Onion, Garlic, Mountain Grape.<br/>3. Mineral Kingdom - Sulphur, Petroleum, Nitric acid.<br/>4. Nosodes - Disease products of Human beings, Animals and Plants, e.g. Tuberculinum.<br/>5. Sarcodes - Remedies prepared from healthy animal tissues and secretions, e.g. Thyroidinum.<br/>6. Imponderabilia - Immaterial elements or energies, e.g. X-ray, Sun ray, Moon ray."
+  },
+  {
+    "question": "Name some common ailments Homoeopathy can treat.",
+    "answer": "Rheumatoid Arthritis, Gout, Kidney Stone, Frozen Shoulder, Constipation, IBS, Diverticulitis, Ulcers, Anxiety, Depression, Stress, Skin Diseases, Migraine, Vertigo, UTI, Piles, Menstrual Complaints, PCOD, Chronic Backpain, Acne, Frequent Abortion, Bed wetting in Children, Tonsillitis, Worm Trouble, Thyroid Dysfunction, etc."
+  },
+  {
+    "question": "Is homoeopathy safe for children?",
+    "answer": "Yes, homoeopathic remedies are gentle and safe for children of all ages as they are non-toxic and free from side effects."
+  },
+  {
+    "question": "Do Homoeopathic medicines have side effects?",
+    "answer": "No, Homoeopathic medicines have no side effects and can be taken by all ages."
+  },
+  {
+    "question": "Can Homoeopathy treat all types of illness?",
+    "answer": "Yes, Homoeopathy can treat both acute and chronic illnesses."
   },
   {
     "question": "How long does it take to see results?",
@@ -13,6 +29,6 @@
   },
   {
     "question": "Do I need to stop my current medication?",
-    "answer": "No, you should not stop any prescribed medicines without consulting your doctor. Homeopathy can often be taken alongside conventional treatments."
+    "answer": "No, you should not stop any prescribed medicines without consulting your doctor. homoeopathy can often be taken alongside conventional treatments."
   }
 ]

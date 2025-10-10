@@ -70,7 +70,7 @@ export default function Contact() {
                   📞 <strong>Phone:</strong> +91 94432 23601
                 </li>
                 <li>
-                  ✉️ <strong>Email:</strong> info@homeoclinic.com
+                  ✉️ <strong>Email:</strong> info@homoeoclinic.com
                 </li>
               </ul>
             </div>
