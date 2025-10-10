@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "framer-motion": "^12.23.24",
     "lottie-react": "^2.4.1",
     "next": "^15.5.3",
     "next-seo": "^6.8.0",

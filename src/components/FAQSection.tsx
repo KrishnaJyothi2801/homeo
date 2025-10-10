@@ -1,9 +1,20 @@
 "use client"
 import { useState } from "react"
+import { motion, easeOut } from "framer-motion" // ✅ use named easing function
 import faqs from "@/assets/faqs.json"
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
+
+  // Type-safe animation variant using framer-motion easing
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 50 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6, ease: easeOut }, // ✅ correct easing type
+    },
+  }
 
   return (
     <section className="relative py-16 bg-[#caf0f8]">
@@ -13,23 +24,34 @@ export default function FAQSection() {
         style={{ backgroundImage: "url('/images/bg_leaf.jpeg')" }}
       ></div>
 
-      {/* Optional White Overlay for readability */}
+      {/* Optional White Overlay */}
       <div className="absolute inset-0 bg-[#E8F6F6]/30"></div>
 
       {/* Content */}
       <div className="relative container mx-auto px-4 max-w-3xl">
-        <h2 className="text-3xl font-bold text-[#0A0B62] text-center mb-10">
+        <motion.h2
+          className="text-3xl font-bold text-[#0A0B62] text-center mb-10"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: easeOut }}
+          viewport={{ once: true }}
+        >
           Frequently Asked Questions
-        </h2>
+        </motion.h2>
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div
+            <motion.div
               key={index}
+              variants={fadeInUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
               className="bg-white/80 backdrop-blur-sm rounded-lg shadow-md p-5 cursor-pointer"
-              onClick={() => setOpenIndex(openIndex === index ? null : index)}
+              onClick={() =>
+                setOpenIndex(openIndex === index ? null : index)
+              }
             >
-              {/* Header */}
               <div className="flex justify-between items-center">
                 <h3 className="text-lg font-semibold text-[#03045e]">
                   {faq.question}
@@ -43,7 +65,6 @@ export default function FAQSection() {
                 </span>
               </div>
 
-              {/* Smooth expandable answer */}
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
                   openIndex === index ? "max-h-60 mt-3" : "max-h-0"
@@ -54,7 +75,7 @@ export default function FAQSection() {
                   dangerouslySetInnerHTML={{ __html: faq.answer }}
                 />
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
