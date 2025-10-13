@@ -21,7 +21,7 @@ export default function Services() {
         {/* Why Choose Us Section */}
         <section className="py-16 bg-[#caf0f8]">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-5xl font-bold text-[#03045e] mb-6">
+            <h2 className="text-5xl font-bold text-[#03045e] my-6">
               Our Services
             </h2>
             <p className="max-w-3xl mx-auto text-[#0077b6] mb-12">
@@ -47,12 +47,14 @@ export default function Services() {
         {/* Call to Action */}
         <section className="py-12 bg-[#E8F6F6] text-center text-[#03045e]">
           <h3 className="text-2xl font-semibold mb-4">Book Your Appointment</h3>
-          <a
-            href="/contact"
-            className="bg-[#0077b6] hover:bg-[#00b4d8] text-white px-6 py-3 rounded-lg font-medium"
-          >
-            Contact Us
-          </a>
+          <button className="transition-transform duration-500 hover:scale-105 animate-[float_6s_ease-in-out_infinite]">
+            <a
+              href="/contact"
+              className="bg-[#0077b6] hover:bg-[#00b4d8] text-white px-6 py-3 rounded-lg font-medium"
+            >
+              Contact Us
+            </a>
+          </button>
         </section>
       </main>
     </Layout>

@@ -1,7 +1,7 @@
 export default function ContactFloatButtons() {
-  const whatsappNumber = "919443223601" // replace with your number
+  const whatsappNumber = "919497760537"
   const message = encodeURIComponent("Hi Doctor, I would like to consult you.")
-  const phoneNumber = "+919443223601"
+  const phoneNumber = "+919497760537"
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end space-y-3">

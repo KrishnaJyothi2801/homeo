@@ -25,66 +25,104 @@ export default function Contact() {
           title="Contact Us"
           subtitle="Get in touch to book an appointment or learn more"
           ctaText="Call Now"
-          ctaLink="tel:+919443223601"
+          ctaLink="tel:+919497760537"
           heroAnimation={contactAnimation}
         />
 
         {/* Pricing Section */}
         <section id="pricing" className="py-16 bg-[#E0F7FA]">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold text-[#03045e] mb-12">
-              Our Packages
+            <h2 className="text-3xl md:text-4xl font-bold text-[#03045e] mb-12">
+              Book your appointment with us!
             </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {pricingData.map((plan, index) => (
-                <PricingCard
-                  key={index}
-                  title={plan.title}
-                  price={plan.price}
-                  features={plan.features}
-                  popular={plan.popular || false}
-                  ctaText={plan.ctaText}
-                />
-              ))}
+
+            <div className="inline-block bg-white rounded-3xl shadow-lg p-10 md:p-16 transform transition-transform duration-500 hover:scale-105">
+              <div className="mb-8">
+                <h3 className="text-2xl md:text-3xl font-semibold text-[#0077b6] mb-4">
+                  Basic Consultation
+                </h3>
+              </div>
+
+              <div className="space-y-4 text-left md:text-center">
+                <div className="flex justify-between md:justify-center gap-4 md:gap-10 text-gray-700 text-lg md:text-xl font-medium">
+                  <span>Consulting Fee:</span>
+                  <span className="text-[#03045e]">₹300/-</span>
+                </div>
+                <div className="flex justify-between md:justify-center gap-4 md:gap-10 text-gray-700 text-lg md:text-xl font-medium">
+                  <span>Medicine (1 month):</span>
+                  <span className="text-[#03045e]">₹700/-</span>
+                </div>
+                <div className="flex justify-between md:justify-center gap-4 md:gap-10 text-gray-700 text-lg md:text-xl font-medium">
+                  <span>Package & Speed Post:</span>
+                  <span className="text-[#03045e]">₹200/-</span>
+                </div>
+              </div>
+
+              <div className="mt-8">
+                <a
+                  href="/book_appointment"
+                  className="inline-block px-8 py-4 bg-[#0077b6] text-white font-semibold rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+                >
+                  Book Now
+                </a>
+              </div>
             </div>
           </div>
         </section>
 
+
         {/* Contact + Map Section */}
         <section className="py-16 bg-[#caf0f8]">
-          <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-start">
+          <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-stretch">
+
             {/* Clinic Information */}
-            <div>
-              <h2 className="text-3xl font-bold text-[#03045e] mb-6">
+            <div className="bg-white p-6 sm:p-8 rounded-xl shadow-md flex flex-col">
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#03045e] mb-4">
                 Clinic Information
               </h2>
-              <p className="text-[#0077b6] mb-4">
-                Visit us at our clinic or contact us via phone or email. We look
-                forward to helping you.
+              <p className="text-[#0077b6] mb-6 flex-shrink-0 text-sm sm:text-base">
+                Visit our clinic or contact us via phone or email. We are here to help you.
               </p>
-              <ul className="space-y-3 text-[#0077b6]">
-                <li>
-                  📍 <strong>Address:</strong> 123 Main Street, Thiruvananthapuram, India
-                </li>
-                <li>
-                  📞 <strong>Phone:</strong> +91 94432 23601
-                </li>
-                <li>
-                  ✉️ <strong>Email:</strong> info@homoeoclinic.com
-                </li>
-              </ul>
+
+              <div className="space-y-4 text-[#0077b6] text-sm sm:text-base mt-auto">
+                <div className="flex items-start gap-2 sm:gap-3">
+                  <span className="text-xl">📍</span>
+                  <div>
+                    <strong>Address:</strong> <br />
+                    Dr. Siva, BSc; MD(Homoeo) <br />
+                    TC.20/56(16), CIT Road, <br />
+                    Melaranoor, Karamana PO, Trivandrum - 695023 <br />
+                    Kerala State
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <span className="text-xl">📞</span>
+                  <div>
+                    <strong>Phone:</strong> +91 94977 60537
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <span className="text-xl">✉️</span>
+                  <div>
+                    <strong>Email:</strong> subramoniam.siva@gmail.com
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Map */}
-            <div className="w-full h-96 rounded-lg overflow-hidden shadow-lg">
+            <div className="w-full rounded-xl shadow-md overflow-hidden">
               <iframe
                 title="Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.0000000000005!2d76.9426376!3d8.5241397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05c25c7a1f38ff%3A0x123456abcdef7890!2sThiruvananthapuram%2C%20Kerala%2C%20India!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin"
-                className="w-full h-full border-0"
+                className="w-full h-64 sm:h-80 md:h-full border-0"
                 allowFullScreen
                 loading="lazy"
               />
             </div>
+
           </div>
         </section>
 

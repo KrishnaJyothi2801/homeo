@@ -6,21 +6,21 @@ import FAQSection from "@/components/FAQSection";
 export default function Home() {
   return (
     <Layout>
-      <main className="pt-12">
+      <main className="pt-16">
         {/* Doctor Hero Section with Background Image */}
         <div
           className="flex flex-col lg:flex-row items-center justify-center 
-  p-6 sm:p-10 md:p-16 lg:p-20 shadow-xl bg-cover bg-center bg-no-repeat bg-[#caf0f8]"
+  p-6 pt-16 sm:p-10 sm:pt-16 md:p-16 md:pt-24 lg:p-20 shadow-xl bg-cover bg-center bg-no-repeat bg-[#caf0f8]"
           style={{ backgroundImage: "url('/images/generated-image.png')" }}
         >
           {/* Doctor Image */}
           <img
-            src="/images/dp_placeholder.png"
+            src="/images/doctor.jpeg"
             alt="Dr.Siva Multi-speciality Homoeo Care"
-            className="w-40 h-40 sm:w-52 sm:h-52 md:w-80 md:h-80 lg:w-96 lg:h-96 
-    rounded-full object-cover mb-6 lg:mb-0 lg:mr-16 transition-all duration-300"
+            className="w-40 h-52 sm:w-52 sm:h-64 md:w-80 md:h-[26rem] lg:w-96 lg:h-[30rem]
+  rounded-full object-cover object-[center_top] mb-6 lg:mb-0 lg:mx-auto transition-transform duration-500 
+  hover:scale-105 animate-[float_6s_ease-in-out_infinite]"
           />
-
           {/* Content */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left 
   p-4 sm:p-6 md:p-8 max-w-3xl mx-auto mt-4 lg:mt-0 hover:shadow-[#0077b6]/50 transition-all duration-300">
@@ -49,7 +49,8 @@ export default function Home() {
             {/* Book Appointment Button */}
             <a
               href="/contact#pricing"
-              className="bg-[#0077b6] hover:bg-[#03045E] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition"
+              className="bg-[#0077b6] hover:bg-[#03045E] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-transform duration-500 
+  hover:scale-105 animate-[float_6s_ease-in-out_infinite]"
             >
               Book Appointment
             </a>
@@ -84,7 +85,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-16 bg-white">
+        <section className="pt-16 pb-10 bg-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-[#03045e] mb-6">
               Welcome to Our Homoeopathic Clinic
@@ -96,6 +97,16 @@ export default function Home() {
             </p>
           </div>
         </section>
+        {/* Consultation Workflow Section */}
+        <section className="pb-16 bg-white text-center">
+          <div className="container mx-auto px-4">
+            <img
+              src="/images/workflow.png"
+              alt="Consultation Workflow"
+              className="mx-auto rounded-lg shadow-lg max-w-full h-auto"
+            />
+          </div>
+        </section>
 
         {/* FAQ Section */}
         <FAQSection />
@@ -103,12 +114,14 @@ export default function Home() {
         {/* Call to action */}
         <section className="py-12 bg-[#E8F6F6] text-center text-[#03045e]">
           <h3 className="text-2xl font-semibold mb-4">Need a Consultation?</h3>
-          <a
-            href="/contact"
-            className="bg-[#0077b6] hover:bg-[#00b4d8] text-white px-6 py-3 rounded-lg font-medium"
-          >
-            Contact Us
-          </a>
+          <button className="transition-transform duration-500 hover:scale-105 animate-[float_6s_ease-in-out_infinite]">
+            <a
+              href="/contact"
+              className="bg-[#0077b6] hover:bg-[#00b4d8] text-white px-6 py-3 rounded-lg font-medium "
+            >
+              Contact Us
+            </a>
+          </button>
         </section>
       </main>
     </Layout>

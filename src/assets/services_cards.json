@@ -28,5 +28,30 @@
     "imageUrl": "/images/child.jpeg",
     "title": "Child Care & Wellness",
     "description": "Gentle, safe remedies for common childhood issues including immunity, digestion, and growth support, promoting overall health."
+  },
+  {
+    "imageUrl": "/images/ibs.jpeg",
+    "title": "Irritable Bowel Syndrome (IBS)",
+    "description": "Personalized homeopathic care to ease IBS symptoms such as bloating, irregular bowel movements, and abdominal discomfort for lasting digestive balance."
+  },
+  {
+    "imageUrl": "/images/depression.jpeg",
+    "title": "Depression",
+    "description": "Safe, holistic homeopathic remedies that support emotional well-being, reduce stress, and help manage depression naturally without dependency."
+  },
+  {
+    "imageUrl": "/images/skindis.jpeg",
+    "title": "Skin Diseases",
+    "description": "Effective homeopathic treatments for eczema, psoriasis, acne, and other skin issues, promoting clear, healthy, and radiant skin from within."
+  },
+  {
+    "imageUrl": "/images/piles.jpeg",
+    "title": "Piles",
+    "description": "Targeted remedies that provide relief from pain, itching, and bleeding caused by piles while addressing the underlying causes for complete recovery."
+  },
+  {
+    "imageUrl": "/images/uti.png",
+    "title": "Urinary Tract Infection (UTI)",
+    "description": "Natural homeopathic treatment to relieve burning sensation, frequent urination, and discomfort, preventing recurring urinary tract infections effectively."
   }
 ]
