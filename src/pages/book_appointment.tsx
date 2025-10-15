@@ -26,7 +26,7 @@ export default function BookAppointment() {
 
   return (
     <Layout>
-      <div className="relative w-full min-h-[700px] bg-[#CAF0F8] flex flex-col items-center">
+      <div className="relative w-full min-h-[700px] bg-[#CAF0F8] flex flex-col items-center mt-10 md:mt-0">
         {/* Main Calendly + Loader Container */}
         <div className="relative w-full flex-1 flex items-center justify-center">
           {/* Background Loader */}

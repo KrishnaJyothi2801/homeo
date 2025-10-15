@@ -116,7 +116,7 @@ export default function Contact() {
             <div className="w-full rounded-xl shadow-md overflow-hidden">
               <iframe
                 title="Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.0000000000005!2d76.9426376!3d8.5241397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05c25c7a1f38ff%3A0x123456abcdef7890!2sThiruvananthapuram%2C%20Kerala%2C%20India!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3946.194513979893!2d76.96025432449406!3d8.480458847335267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTC.20%2F56(16)%2C%20CIT%20Road%2C%20Melaranoor%2C%20Karamana%20PO%2C%20Trivandrum%20-%20695023%2C%20Kerala!5e0!3m2!1sen!2sin!4v1760549140541!5m2!1sen!2sin"
                 className="w-full h-64 sm:h-80 md:h-full border-0"
                 allowFullScreen
                 loading="lazy"
