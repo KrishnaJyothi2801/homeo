@@ -1,7 +1,8 @@
-/** next.config.js */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  output: 'export', // <-- enable static HTML export
   images: {
     domains: [
       "png.pngtree.com",
