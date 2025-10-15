@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: 'export', // <-- enable static HTML export
+  output: 'export',
   images: {
     domains: [
       "png.pngtree.com",
@@ -10,6 +10,7 @@ const nextConfig = {
       "www.janeylhammonsnpc.com",
       "encrypted-tbn0.gstatic.com",
     ],
+    unoptimized: true,
   },
 }
 
