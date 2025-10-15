@@ -28,7 +28,9 @@ jobs:
         run: npm install
 
       - name: Build Next.js
-        run: npm run build
+        run: |
+          npm run build
+          npm run export  # ensures ./out exists
 
       - name: Upload production-ready build
         uses: actions/upload-pages-artifact@v3
