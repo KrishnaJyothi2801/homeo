@@ -2,10 +2,40 @@ import Layout from "@/components/Layout";
 import Hero from "@/components/Hero";
 import heroAnimation from "@/assets/doctor.json";
 import FAQSection from "@/components/FAQSection";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <Layout>
+      <Head>
+        <title>Dr. Siva's Multi-speciality Homoeo Clinic | Holistic Healing & Homeopathy Care</title>
+        <meta
+          name="description"
+          content="Experience personalized homeopathic care with Dr. Siva's Multi-speciality Homoeo Clinic. Over 31 years of trusted expertise in holistic healing and natural treatments."
+        />
+        <meta
+          name="keywords"
+          content="homeopathy, dr siva, homoeo clinic, natural healing, holistic health, alternative medicine, multi-speciality homoeo care, homeopathic treatment"
+        />
+        <meta name="author" content="Dr. Siva's Multi-speciality Homoeo Clinic" />
+        <meta property="og:title" content="Dr. Siva's Multi-speciality Homoeo Clinic" />
+        <meta
+          property="og:description"
+          content="Over 31 years of experience in homeopathy — restoring health through natural and holistic care."
+        />
+        <meta property="og:image" content="/images/og-image.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://your-domain.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Dr. Siva's Multi-speciality Homoeo Clinic" />
+        <meta
+          name="twitter:description"
+          content="Holistic homeopathic healing from Dr. Siva — trusted care for over 31 years."
+        />
+        <meta name="twitter:image" content="/images/og-image.png" />
+        <link rel="canonical" href="https://your-domain.com" />
+      </Head>
+
       <main className="pt-16">
         {/* Doctor Hero Section with Background Image */}
         <div

@@ -3,12 +3,42 @@ import Layout from "@/components/Layout";
 import Card from "@/components/Card";
 import servicesAnimation from "@/assets/services.json";
 import services_card from "@/assets/services_cards.json";
+import Head from "next/head";
 
 export default function Services() {
   const serviceItems = services_card;
 
   return (
     <Layout>
+      <Head>
+        <title>Our Services | Dr. Siva's Multi-speciality Homoeo Clinic</title>
+        <meta
+          name="description"
+          content="Explore a range of holistic homeopathic treatments at Dr. Siva's Multi-speciality Homoeo Clinic. Safe, natural, and personalized care for all ages."
+        />
+        <meta
+          name="keywords"
+          content="homeopathy services, dr siva, holistic healing, natural remedies, homoeo clinic, alternative medicine, wellness care, homeopathic treatments"
+        />
+        <meta name="author" content="Dr. Siva's Multi-speciality Homoeo Clinic" />
+        <meta property="og:title" content="Our Services | Dr. Siva's Multi-speciality Homoeo Clinic" />
+        <meta
+          property="og:description"
+          content="Comprehensive homeopathic treatments providing safe, natural, and effective care for long-term wellness."
+        />
+        <meta property="og:image" content="/images/og-image.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://your-domain.com/services" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Services | Dr. Siva's Multi-speciality Homoeo Clinic" />
+        <meta
+          name="twitter:description"
+          content="Discover holistic homeopathic treatments designed for lasting wellness and natural healing."
+        />
+        <meta name="twitter:image" content="/images/og-image.png" />
+        <link rel="canonical" href="https://your-domain.com/services" />
+      </Head>
+
       <main className="pt-12">
         {/* <Hero
           title="Our Services"
