@@ -131,7 +131,7 @@ export default function Home() {
         <section className="pb-16 bg-white text-center">
           <div className="container mx-auto px-4">
             <img
-              src="/images/workflow.png"
+              src="/images/workflow.jpeg"
               alt="Consultation Workflow"
               className="mx-auto rounded-lg shadow-lg max-w-full h-auto"
             />

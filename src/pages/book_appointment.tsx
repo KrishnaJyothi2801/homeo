@@ -40,7 +40,7 @@ export default function BookAppointment() {
           {/* Calendly Widget */}
           <div
             className="calendly-inline-widget w-full h-[700px] relative z-10 mt-12"
-            data-url="https://calendly.com/shivani-kj28-1/new-meeting?hide_gdpr_banner=1"
+            data-url="https://calendly.com/drsivashomeo/30min"
             style={{ minWidth: "320px" }}
           ></div>
         </div>

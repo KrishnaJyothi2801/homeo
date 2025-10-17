@@ -89,7 +89,7 @@ export default function Contact() {
                   <span className="text-[#03045e]">₹700/-</span>
                 </div>
                 <div className="flex justify-between md:justify-center gap-4 md:gap-10 text-gray-700 text-lg md:text-xl font-medium">
-                  <span>Package & Speed Post:</span>
+                  <span>Package & Speed Post Charges:</span>
                   <span className="text-[#03045e]">₹200/-</span>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function Contact() {
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-xl">✉️</span>
                   <div>
-                    <strong>Email:</strong> subramoniam.siva@gmail.com
+                    <strong>Email:</strong> drsivashomeo@gmail.com
                   </div>
                 </div>
               </div>
@@ -150,9 +150,10 @@ export default function Contact() {
             <div className="w-full rounded-xl shadow-md overflow-hidden">
               <iframe
                 title="Location"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3946.194513979893!2d76.96025432449406!3d8.480458847335267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTC.20%2F56(16)%2C%20CIT%20Road%2C%20Melaranoor%2C%20Karamana%20PO%2C%20Trivandrum%20-%20695023%2C%20Kerala!5e0!3m2!1sen!2sin!4v1760549140541!5m2!1sen!2sin" className="w-full h-64 sm:h-80 md:h-full border-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.1594748508846!2d76.96059212449408!3d8.483870197284826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb0259796aab%3A0x12f48f2b2860f796!2sDr.%20Siva&#39;s%20Multi-speciality%20Homoeo%20Clinic!5e0!3m2!1sen!2sin!4v1760692553490!5m2!1sen!2sin" 
                 allowFullScreen
                 loading="lazy"
+                className="w-full h-full border-0"
               />
             </div>
           </div>
