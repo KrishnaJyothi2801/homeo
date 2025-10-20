@@ -62,9 +62,9 @@ export default function Footer() {
       </div>
       <div className="bg-black text-center py-3 border-t border-[#005f91]">
         <p className="text-sm text-white font-semibold">
-          🌐 Designed and Maintained by
+          🌐 Developed and Maintained by
           <a
-            href="/"
+            href="https://webaglet.vercel.app/"
             className="bg-gradient-to-r from-[#0077b6] via-[#00b4d8] to-[#90e0ef] 
   bg-clip-text text-transparent hover:text-green-200 transition-colors cursor-pointer ml-1 underline underline-offset-4 decoration-[#00b4d8]"
           >
