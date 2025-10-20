@@ -70,7 +70,6 @@ export default function Footer() {
           >
             WebAglet
           </a>
-          <span> (Ph: 9443223601)</span>
         </p>
       </div>
     </footer>
