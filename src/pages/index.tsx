@@ -7,6 +7,7 @@ export default function Home() {
     <Layout>
       <Head>
         <title>Dr. Siva's Multi-speciality Homoeo Clinic | Holistic Healing & Homeopathy Care</title>
+        <meta name="google-site-verification" content="i6EDw3mmCkQ4Gr43yUN_LHyuqdbac2_WGDq8Z05H--E" />
         <meta
           name="description"
           content="Experience personalized homeopathic care with Dr. Siva's Multi-speciality Homoeo Clinic. Over 31 years of trusted expertise in holistic healing and natural treatments."
