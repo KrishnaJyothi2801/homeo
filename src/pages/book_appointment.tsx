@@ -54,7 +54,7 @@ export default function BookAppointment() {
 
       {/* Back to Contact Us Button (shown only after form submission) */}
       {showBackButton && (
-        <div className="w-full flex justify-center py-6 md:pb-6 md:pt-0 bg-[#CAF0F8]">
+        <div className="w-full flex justify-center py-6 md:pb-6 md:pt-6 bg-[#CAF0F8]">
           <a
             href="/"
             className="px-6 py-3 bg-[#0077B6] text-white rounded-md hover:bg-[#03045E] transition"

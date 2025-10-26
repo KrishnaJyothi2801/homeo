@@ -1,6 +1,4 @@
 import Layout from "@/components/Layout";
-import Hero from "@/components/Hero";
-import heroAnimation from "@/assets/doctor.json";
 import FAQSection from "@/components/FAQSection";
 import Head from "next/head";
 
@@ -15,7 +13,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="homeopathy, dr siva, homoeo clinic, natural healing, holistic health, alternative medicine, multi-speciality homoeo care, homeopathic treatment"
+          content="homeopathy, dr siva, homoeo clinic, natural healing, holistic health, alternative medicine, multi-speciality homoeo clinic, homeopathic treatment"
         />
         <meta name="author" content="Dr. Siva's Multi-speciality Homoeo Clinic" />
         <meta property="og:title" content="Dr. Siva's Multi-speciality Homoeo Clinic" />
