@@ -2,6 +2,7 @@ import ContactFloatButtons from "./ContactFloatButtons";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Head from "next/head";
+import Scripts from "./Scripts";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -29,7 +30,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
-
+      <Scripts />
       <Navbar />
       <main className="w-full">{children}</main>
       <ContactFloatButtons />
