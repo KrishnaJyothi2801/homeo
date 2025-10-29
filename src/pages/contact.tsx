@@ -61,7 +61,7 @@ export default function Contact() {
           title="Contact Us"
           subtitle="Get in touch to book an appointment or learn more"
           ctaText="Call Now"
-          ctaLink="tel:+919443223601"
+          ctaLink="tel:+919497760537"
           heroAnimation={contactAnimation}
         />
 
