@@ -10,15 +10,21 @@
     "export": "next export"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/oswald": "^5.2.8",
+    "@formspree/react": "^3.0.0",
     "@heroicons/react": "^2.0.18",
+    "canvas-confetti": "^1.9.4",
     "framer-motion": "^12.23.24",
     "lottie-react": "^2.4.1",
+    "lucide-react": "^0.548.0",
     "next": "^15.5.3",
     "next-seo": "^6.8.0",
     "next-sitemap": "^4.2.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-lottie-player": "^2.1.0"
+    "react-lottie-player": "^2.1.0",
+    "react-router-dom": "^7.9.4"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.10",

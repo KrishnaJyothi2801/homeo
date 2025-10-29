@@ -9,6 +9,8 @@ const nextConfig = {
       "media.istockphoto.com",
       "www.janeylhammonsnpc.com",
       "encrypted-tbn0.gstatic.com",
+      'drive.google.com',
+      'images.unsplash.com'
     ],
     unoptimized: true,
   },
