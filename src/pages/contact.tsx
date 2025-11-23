@@ -42,7 +42,7 @@ export default function Contact() {
         />
         <meta property="og:image" content="/images/og-image.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://your-domain.com/contact" />
+        <meta property="og:url" content="https://drsivashomeo.vercel.app/contact" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -53,7 +53,7 @@ export default function Contact() {
           content="Book an appointment or get in touch with Dr. Siva's Multi-speciality Homoeo Clinic for holistic homeopathic treatment."
         />
         <meta name="twitter:image" content="/images/og-image.png" />
-        <link rel="canonical" href="https://your-domain.com/contact" />
+        <link rel="canonical" href="https://drsivashomeo.vercel.app/contact" />
       </Head>
 
       <main className="pt-12">

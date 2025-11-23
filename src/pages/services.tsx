@@ -28,7 +28,7 @@ export default function Services() {
         />
         <meta property="og:image" content="/images/og-image.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://your-domain.com/services" />
+        <meta property="og:url" content="https://drsivashomeo.vercel.app/services" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Our Services | Dr. Siva's Multi-speciality Homoeo Clinic" />
         <meta
@@ -36,7 +36,7 @@ export default function Services() {
           content="Discover holistic homeopathic treatments designed for lasting wellness and natural healing."
         />
         <meta name="twitter:image" content="/images/og-image.png" />
-        <link rel="canonical" href="https://your-domain.com/services" />
+        <link rel="canonical" href="https://drsivashomeo.vercel.app/services" />
       </Head>
 
       <main className="pt-12">
