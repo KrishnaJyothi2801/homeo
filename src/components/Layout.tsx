@@ -1,3 +1,6 @@
+"use client"
+
+import { DiscussionEmbed } from "disqus-react";
 import ContactFloatButtons from "./ContactFloatButtons";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
@@ -5,6 +8,11 @@ import Head from "next/head";
 import Scripts from "./Scripts";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
+  const article = {
+    id: "services-page",
+    url: "https://drsivashomeo.vercel.app/services",
+    title: "Our Services | Dr. Siva's Multi-speciality Homoeo Clinic",
+  };
   return (
     <div className="font-sans overflow-x-hidden">
       <Head>
@@ -34,6 +42,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Navbar />
       <main className="w-full">{children}</main>
       <ContactFloatButtons />
+      <section className="py-10 px-4">
+        <DiscussionEmbed
+          shortname="drsivashomeo"
+          config={{
+            url: article.url,
+            identifier: article.id,
+            title: article.title,
+            language: "en_IN",
+          }}
+        />
+      </section>
       <Footer />
     </div>
   );

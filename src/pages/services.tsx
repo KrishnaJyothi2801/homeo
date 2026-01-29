@@ -1,7 +1,5 @@
-import Hero from "@/components/Hero";
 import Layout from "@/components/Layout";
 import Card from "@/components/Card";
-import servicesAnimation from "@/assets/services.json";
 import services_card from "@/assets/services_cards.json";
 import Head from "next/head";
 
