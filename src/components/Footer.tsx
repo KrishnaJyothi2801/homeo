@@ -1,3 +1,5 @@
+import { Mail, MessageCircle } from "lucide-react"
+
 export default function Footer() {
   return (
     <footer className="bg-[#0077B6] text-white">
@@ -60,17 +62,54 @@ export default function Footer() {
       <div className="text-center mt-10 py-4 text-xs text-[#90e0ef] border-t border-[#005f91]">
         © {new Date().getFullYear()} Dr. Siva's Multi-speciality Homoeo Clinic. All rights reserved.
       </div>
-      <div className="bg-black text-center py-3 border-t border-[#005f91]">
-        <p className="text-sm text-white font-semibold">
-          🌐 Developed and Maintained by
+      <div className="relative z-10 bg-black py-5">
+        <div className="flex flex-col items-center gap-3 text-sm text-white">
+          
+          <p>
+            Website designed & developed by{" "}
+            <a
+              href="https://webaglet.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-[#00b4d8] hover:text-white transition"
+            >
+              WebAglet
+            </a>
+          </p>
+
           <a
-            href="https://webaglet.vercel.app/"
-            className="bg-gradient-to-r from-[#0077b6] via-[#00b4d8] to-[#90e0ef] 
-  bg-clip-text text-transparent hover:text-green-200 transition-colors cursor-pointer ml-1 underline underline-offset-4 decoration-[#00b4d8]"
+            href="https://webaglet.in/#contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-[#00b4d8] hover:text-white underline underline-offset-4 transition"
           >
-            WebAglet
+            Launch your website with us!
           </a>
-        </p>
+
+          {/* Contact shortcuts */}
+          <div className="flex items-center gap-4 mt-1">
+            <a
+              href="https://wa.me/919443223601?text=Hi%20WebAglet,%20I%20need%20a%20website"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-white/80 hover:text-[#25D366] transition"
+            >
+              <MessageCircle className="w-4 h-4" />
+              WhatsApp
+            </a>
+
+            <span className="text-white/30">|</span>
+
+            <a
+              href="mailto:webaglet@gmail.com"
+              className="flex items-center gap-2 text-white/80 hover:text-[#00b4d8] transition"
+            >
+              <Mail className="w-4 h-4" />
+              Email
+            </a>
+          </div>
+
+        </div>
       </div>
     </footer>
   )
