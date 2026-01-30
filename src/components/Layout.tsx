@@ -42,7 +42,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Navbar />
       <main className="w-full">{children}</main>
       <ContactFloatButtons />
-      <section className="py-10 px-4">
+      {/* <section className="py-10 px-4">
         <DiscussionEmbed
           shortname="drsivashomeo"
           config={{
@@ -52,7 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             language: "en_IN",
           }}
         />
-      </section>
+      </section> */}
       <Footer />
     </div>
   );
