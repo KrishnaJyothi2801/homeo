@@ -77,7 +77,7 @@ export default function Home() {
 
             {/* Book Appointment Button */}
             <a
-              href="/contact#pricing"
+              href="/contact"
               className="bg-[#0077b6] hover:bg-[#03045E] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-transform duration-500 
   hover:scale-105 animate-[float_6s_ease-in-out_infinite]"
             >
