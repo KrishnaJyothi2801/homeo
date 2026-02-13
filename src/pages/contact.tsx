@@ -66,7 +66,7 @@ export default function Contact() {
         />
 
         {/* Pricing Section */}
-        <section id="pricing" className="py-16 bg-[#E0F7FA]">
+        {/* <section id="pricing" className="py-16 bg-[#E0F7FA]">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-[#03045e] mb-12">
               Book your appointment with us!
@@ -104,7 +104,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Contact + Map Section */}
         <section className="py-16 bg-[#caf0f8]">
