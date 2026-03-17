@@ -1,13 +1,13 @@
 [
   {
     "imageUrl": "/images/cold.png",
-    "title": "Cold & Respiratory Relief",
-    "description": "Natural homoeopathic remedies that help relieve symptoms of cold, cough, sinusitis, and seasonal allergies while strengthening your immunity."
+    "title": "Cold and Respiratory Relief",
+    "description": "Natural Homeopathic remedies that help to relieve symptoms of cold, chronic cough or wheezing, COPD (chronic obstructive pulmonary disease), influenza (flu), industrial lung diseases due to tobacco dust, asbestos dust, construction dust, rattling of chest, hoarseness of voice, laryngitis, nasal polyp, etc. are successfully treated with homeopathic medicines."
   },
   {
     "imageUrl": "/images/migraine.jpeg",
-    "title": "Migraine & Headache Care",
-    "description": "Gentle and effective treatments for chronic migraines and tension headaches, offering long-term relief without side effects."
+    "title": "Migraine, Vertigo and Headache Care",
+    "description": "Gentle and effective treatments for chronic migraine, vertigo and headaches of different origins, offering long-term relief without side effects."
   },
   {
     "imageUrl": "/images/hairloss.png",
@@ -17,41 +17,56 @@
   {
     "imageUrl": "/images/kidney.jpeg",
     "title": "Kidney Stone Relief",
-    "description": "Safe and natural remedies that help dissolve kidney stones, support kidney function, and reduce urinary discomfort."
+    "description": "Safe and natural remedies that help to dissolve different sizes of kidney stones without surgery and also best medicines for painful urination, bloody urine, albuminous urine, casts and pus in urine, difficulty in urination, and frequency in urination."
   },
   {
     "imageUrl": "/images/pcod.jpeg",
-    "title": "PCOD & Hormonal Balance",
-    "description": "homoeopathic treatments designed to regulate menstrual cycles, balance hormones, and support reproductive health naturally."
+    "title": "PCOS & Hormonal Imbalance",
+    "description": "PCOS can be treated as per symptoms with 100 percent cure. Female complaints such as delayed puberty, dysmenorrhoea (painful menstruation), menorrhagia (heavy bleeding), metrorrhagia (irregular periods), oligomenorrhoea (no menstruation), leucorrhoea (white discharge) are effectively treated. Gynecological problems are managed well with homeopathic medicines by correcting the root cause and hormonal imbalance."
   },
   {
     "imageUrl": "/images/child.jpeg",
     "title": "Child Care & Wellness",
-    "description": "Gentle, safe remedies for common childhood issues including immunity, digestion, and growth support, promoting overall health."
+    "description": "Gentle and safe remedies for childhood complaints such as cough, cold, running nose, fever, flu, tonsillitis, sore throat, hand-foot-mouth disease, ear infection, conjunctivitis, dentition problems, worm infestation, stomach issues, bed wetting, chicken pox, measles, mumps, skin issues, adenoids, and nose bleeding."
   },
   {
     "imageUrl": "/images/ibs.jpeg",
     "title": "Irritable Bowel Syndrome (IBS)",
-    "description": "Personalized homeopathic care to ease IBS symptoms such as bloating, irregular bowel movements, and abdominal discomfort for lasting digestive balance."
+    "description": "Affects approximately 4.2 to 7.5 percent of Indians, especially in urban areas due to stress, diet, and lifestyle. Symptoms include chronic abdominal pain, bloating, diarrhea or constipation. Common under age 50. Homeopathy offers excellent results not only for IBS but also for gastric and duodenal ulcers."
   },
   {
     "imageUrl": "/images/depression.jpeg",
     "title": "Depression",
-    "description": "Safe, holistic homeopathic remedies that support emotional well-being, reduce stress, and help manage depression naturally without dependency."
+    "description": "According to WHO, depression affects about 5.7 percent of adults and is more common in women. It impacts daily life and can be severe. Homeopathic antidepressants play a vital role in treatment through individualized care."
   },
   {
     "imageUrl": "/images/skindis.jpeg",
     "title": "Skin Diseases",
-    "description": "Effective homeopathic treatments for eczema, psoriasis, acne, and other skin issues, promoting clear, healthy, and radiant skin from within."
+    "description": "Skin diseases are caused by allergy, infection, genetics, diet, stress, bacteria, viruses, fungi, or parasites. Symptoms include redness, itching, burning, and rashes. Homeopathy effectively treats eczema, psoriasis, acne, dermatitis, vitiligo, sunburns, ringworm, hives, herpes zoster, and more."
   },
   {
     "imageUrl": "/images/piles.jpeg",
     "title": "Piles",
-    "description": "Targeted remedies that provide relief from pain, itching, and bleeding caused by piles while addressing the underlying causes for complete recovery."
+    "description": "Piles (hemorrhoids) are swollen veins in the rectum causing pain, bleeding, itching, and constipation. Causes include obesity, pregnancy, family history, chronic cough, or prolonged sitting. Homeopathy treats piles effectively without surgery after proper assessment."
   },
   {
     "imageUrl": "/images/uti.png",
     "title": "Urinary Tract Infection (UTI)",
-    "description": "Natural homeopathic treatment to relieve burning sensation, frequent urination, and discomfort, preventing recurring urinary tract infections effectively."
+    "description": "Caused mainly by E. coli infection leading to painful and frequent urination, cloudy urine, and pelvic pain. Risk factors include diabetes, kidney stones, prostate enlargement, and catheter use. Homeopathic remedies like Cantharis, Lycopodium, and Berberis vulgaris provide effective relief with individualized treatment."
+  },
+  {
+    "imageUrl": "/images/joint_pain.png",
+    "title": "Diseases of Bone and Joints",
+    "description": "Conditions such as frozen shoulder, back pain, sprains, rheumatoid arthritis, gout, sciatica, and sports injuries are successfully treated with homeopathic medication."
+  },
+  {
+    "imageUrl": "/images/thyroid.png",
+    "title": "Endocrine and Metabolic Disorders",
+    "description": "Hypothyroidism, hyperthyroidism, thyroid nodules, high cholesterol, triglycerides, and calcium disorders are treated using nosodes, sarcodes, and Schuessler's biochemic cell salts."
+  },
+  {
+    "imageUrl": "/images/common_disease.png",
+    "title": "Common Diseases We Treat",
+    "description": "Includes lifestyle diseases, ENT problems, abscess, boils, anxiety neurosis, gas, ulcers, mouth ulcers, hyperacidity, anal fissure, fistula, blood in urine, acid reflux, sebaceous cyst, sleeplessness, stress, fatty liver, jaundice, poor appetite, itching, bleeding gums, calcaneal spur, chronic liver disease, diaper rashes, food allergies, peptic ulcers, gall bladder stones, and sciatica."
   }
 ]
