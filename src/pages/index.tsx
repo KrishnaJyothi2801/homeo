@@ -66,11 +66,11 @@ export default function Home() {
       B.Sc; M.D (Homoeo)
     </p>
 
-    <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#0b132b] mb-4">
+    <p className="text-xl sm:text-3xl md:text-2xl font-semibold text-[#0b132b] mb-4">
       Multi-speciality Homoeo Care
     </p>
 
-    <p className="text-xl md:text-2xl text-[#3a86ff] mb-4 font-semibold">
+    <p className="text-xl md:text-2xl text-[#0b132b] mb-4 font-semibold">
       Over 31 years of experience in the field of Homoeopathy.
     </p>
 
@@ -83,7 +83,7 @@ export default function Home() {
     {/* Button */}
     <a
       href="/contact"
-      className="bg-blue-600 hover:bg-blue-700 text-white 
+      className="bg-gradient-to-r from-[#0077B6] via-[#0096c7] to-[#023e8a] hover:bg-blue-700 text-white 
       px-6 py-3 rounded-lg font-semibold shadow-md 
       transition-all duration-300 hover:scale-105"
     >
@@ -108,7 +108,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-[#03045e] mb-6">
               Our Story
             </h2>
-            <p className="text-[#0077b6] mb-4">
+            <p className="text-[#364153] mb-4">
               Dr.Siva's journey into homoeopathy began over 30 years ago with a simple belief: true healing comes from addressing the root cause, not just the symptoms. Over the years, he has guided countless patients on a path to holistic wellness, combining his deep knowledge with a compassionate touch. Every consultation is a personal journey, where he listens, understands, and crafts natural solutions tailored to each individual. His mission is simple—restore balance, nurture health, and empower his patients to live their best lives naturally.
             </p>
             {/* <p className="text-[#0077b6] mb-8">
