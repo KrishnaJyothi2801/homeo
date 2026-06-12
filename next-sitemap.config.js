@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://drsivashomeo.vercel.app',
+  siteUrl: 'https://drsivashomeo.webaglet.in',
   generateRobotsTxt: true,
   outDir: './public',
   sitemapSize: 7000,

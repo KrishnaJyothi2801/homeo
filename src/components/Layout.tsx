@@ -10,7 +10,7 @@ import Scripts from "./Scripts";
 export default function Layout({ children }: { children: React.ReactNode }) {
   const article = {
     id: "services-page",
-    url: "https://drsivashomeo.vercel.app/services",
+    url: "https://drsivashomeo.webaglet.in/services",
     title: "Our Services | Dr. Siva's Multi-speciality Homoeo Clinic",
   };
   return (
@@ -23,17 +23,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         />
         <title>Dr. Siva's Multi-speciality Homoeo Clinic</title>
         <meta name="description" content="Providing trusted and holistic homeopathic care for over 31 years. Experience natural healing with Dr. Siva's Multi-speciality Homoeo Clinic." />
-        <meta property="og:url" content="https://drsivashomeo.vercel.app/" />
+        <meta property="og:url" content="https://drsivashomeo.webaglet.in/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Dr. Siva's Multi-speciality Homoeo Clinic" />
         <meta property="og:description" content="Providing trusted and holistic homeopathic care for over 31 years. Experience natural healing with Dr. Siva's Multi-speciality Homoeo Clinic." />
-        <meta property="og:image" content="https://drsivashomeo.vercel.app/images/og-image.png" />
+        <meta property="og:image" content="https://drsivashomeo.webaglet.in/images/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="drsivashomeo.vercel.app" />
-        <meta property="twitter:url" content="https://drsivashomeo.vercel.app/" />
+        <meta property="twitter:domain" content="drsivashomeo.webaglet.in" />
+        <meta property="twitter:url" content="https://drsivashomeo.webaglet.in/" />
         <meta name="twitter:title" content="Dr. Siva's Multi-speciality Homoeo Clinic" />
         <meta name="twitter:description" content="Providing trusted and holistic homeopathic care for over 31 years. Experience natural healing with Dr. Siva's Multi-speciality Homoeo Clinic." />
-        <meta name="twitter:image" content="https://drsivashomeo.vercel.app/images/og-image.png" />
+        <meta name="twitter:image" content="https://drsivashomeo.webaglet.in/images/og-image.png" />
 
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />

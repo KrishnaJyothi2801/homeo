@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://drsivashomeo.vercel.app
+Host: https://drsivashomeo.webaglet.in
 
 # Sitemaps
-Sitemap: https://drsivashomeo.vercel.app/sitemap.xml
+Sitemap: https://drsivashomeo.webaglet.in/sitemap.xml

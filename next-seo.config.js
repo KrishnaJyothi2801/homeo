@@ -4,7 +4,7 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://drsivashomeo.vercel.app/',
+    url: 'https://drsivashomeo.webaglet.in/',
     siteName: "Dr. Siva's Multi-speciality Homoeo Clinic",
     images: [
       {
